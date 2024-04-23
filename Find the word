@@ -13,5 +13,6 @@ int main() {
     
     string secondWord = s.substr(firstIndex + 1, secondIndex - firstIndex - 1);
     
-    cout << secondWord;
+    cout << "Text: " << s << endl;
+    cout << "Second word: " << secondWord;
 }
